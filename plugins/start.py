@@ -61,6 +61,7 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("❌ TUTUP", callback_data = "close"),
+                    InlineKeyboardButton("CHANNEL 💌",url = client.db_channel_id)
                 ]
             ]
         )
