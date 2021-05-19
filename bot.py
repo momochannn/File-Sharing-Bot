@@ -27,9 +27,9 @@ class Bot(Client):
                 link = await self.export_chat_invite_link(FORCE_SUB_CHANNEL)
                 self.invitelink = link
             except:
-                self.LOGGER(__name__).warning("Bot can't Export Invite link from Force Sub Channel!")
-                self.LOGGER(__name__).warning("Please Double check the FORCE_SUB_CHANNEL value and Make sure Bot is Admin in channel with Invite Users via Link Permission")
-                self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/CodeXBotzSupport for support")
+                self.LOGGER(__name__).warning("Bot tidak bisa mengekspor link undangan dari Force Sub Channel!")
+                self.LOGGER(__name__).warning("Harap periksa kembali nilai FORCE_SUB_CHANNEL dan Pastikan Bot adalah Admin di saluran dengan Undang Pengguna melalui Izin Tautan")
+                self.LOGGER(__name__).info("\nBot Dihentikan. Harap hubungi https://t.me/kenkanasw untuk mendapatkan dukungan")
                 sys.exit()
         try:
             db_channel = await self.get_chat(CHANNEL_ID)
@@ -38,7 +38,7 @@ class Bot(Client):
             await test.delete()
         except Exception as e:
             self.LOGGER(__name__).warning(e)
-            self.LOGGER(__name__).warning("Make Sure bot is Admin in DB Channel, and Double check the CHANNEL_ID Value")
+            self.LOGGER(__name__).warning("Pastikan bot adalah Admin di Channel DB, dan periksa kembali Nilai CHANNEL_ID Value")
             self.LOGGER(__name__).info("\nMAAF BOT ERROR. Owner https://t.me/kenkanasw")
             sys.exit()
 
