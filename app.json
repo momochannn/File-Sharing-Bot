@@ -8,7 +8,7 @@
     "sharing"
   ],
   "repository": "https://github.com/kenkannih/File-Sharing-Bot",
-  "logo": "https://telegra.ph/file/34eb5d72507c71b6a7972.jpg",
+  "logo": "https://telegra.ph/file/a112fce4e23d859badcd4.jpg",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Dapatkan di  @Botfather",
@@ -16,7 +16,7 @@
     },
     "OWNER_ID": {
       "description": "Isi dengan id kamu, format angka",
-      "value": "1250450587"
+      "value": ""
     },
     "APP_ID":{
       "description": "Dapatkan di my.telegram.org",
@@ -28,11 +28,11 @@
     },
     "CHANNEL_ID":{
       "description": "Isi dengan channel id yang mau di jadikan tempat penyimpanan channel juga bisa ptivat",
-      "value": "-100"
+      "value": ""
     },
     "FORCE_SUB_CHANNEL":{
       "description": "Isi id channel wajib sub, kalau mau nonaktifkan isi aja 0",
-      "value": "0"
+      "value": ""
     },
     "START_MESSAGE": {
       "description": "Optional: pesan sambutan isi dengan format HTML seperti contoh",
