@@ -55,11 +55,11 @@ python3 main.py
 ### Khusus Admin
 
 ```
-/start - start the bot or get posts
+/ start - mulai bot atau dapatkan postingan
 
-/batch - create link for more than one posts
+/ batch - buat tautan untuk lebih dari satu posting
 
-/genlink - create link for one post
+/ genlink - buat tautan untuk satu posting
 
 ```
 
