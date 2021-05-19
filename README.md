@@ -1,9 +1,9 @@
 <p align="center">
-  <a href="https://github.com/jokokendi/File-Sharing-Bot">
+  <a href="https://github.com/kenkan/File-Sharing-Bot">
     <img src="https://telegra.ph/file/e4ee7900b7edcdd92051f.jpg" width ="250">
   </a>
 <p align="center">
-  <a href="https://github.com/jokokendi/File-Sharing-Bot">
+  <a href="https://github.com/kenkan/File-Sharing-Bot">
     <img src="https://telegra.ph/file/a112fce4e23d859badcd4.jpg" width ="250">
   </a>
 
@@ -14,11 +14,11 @@
   <a href="https://www.python.org">
     <img src="http://ForTheBadge.com/images/badges/made-with-python.svg" width ="250">
   </a>
-  <a href="https://github.com/jokokendi/File-Sharing-Bot/stargazers">
-    <img src="https://img.shields.io/github/stars/CodeXBotz/File-Sharing-Bot?style=social">
+  <a href="https://github.com/kenkan/File-Sharing-Bot/stargazers">
+    <img src="https://img.shields.io/github/stars/kenkan/File-Sharing-Bot?style=social">
   </a>
   <a href="https://github.com/jokokendi/File-Sharing-Bot/fork">
-    <img src="https://img.shields.io/github/forks/jokokendi/File-Sharing-Bot?label=Fork&style=social">
+    <img src="https://img.shields.io/github/forks/kenkan/File-Sharing-Bot?label=Fork&style=social">
   </a>  
 </p>
 
@@ -51,7 +51,7 @@ Telegram Bot untuk menyimpan Postingan dan Dokumen dan dapat diakses dengan Taut
 Fork dulu repository ini dan isi config.py dengan data yang benar lalu edit text di bawah ini dengan repository hasil fork kalian, semoga berhasil
 
 ```bash
-git clone https://github.com/jokokendi/File-Sharing-Bot
+git clone https://github.com/kenkan/File-Sharing-Bot
 cd File-Sharing-Bot
 pip3 install -r requirements.txt
 # <Create config.py appropriately>
