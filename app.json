@@ -1,45 +1,45 @@
 
 {
-  "name": "TG File Sharing Bot",
-  "description": "file sharing bot store posts and it can access by special links",
+  "name": "File Sharing Bot",
+  "description": "berbagi file pos penyimpanan bot dan dapat diakses dengan tautan khusus",
   "keywords": [
     "telegram",
     "file",
     "sharing"
   ],
   "repository": "https://github.com/jokokendi/File-Sharing-Bot",
-  "logo": "https://telegra.ph/file/14d3013fda21281c54b61.jpg",
+  "logo": "https://telegra.ph/file/34eb5d72507c71b6a7972.jpg",
   "env": {
     "TG_BOT_TOKEN": {
-      "description": "Your Bot token, Get it from @Botfather",
+      "description": "Dapatkan di  @Botfather",
       "value": ""
     },
     "OWNER_ID": {
-      "description": "An integer of consisting of your owner ID",
+      "description": "Isi dengan id kamu, format angka",
       "value": "1250450587"
     },
     "APP_ID":{
-      "description": "your app id, take it from my.telegram.org",
+      "description": "Dapatkan di my.telegram.org",
       "value": ""
     },
     "API_HASH":{
-      "description": "your api hash, take it from my.telegram.org",
+      "description": "Dapatkan di my.telegram.org",
       "value": ""
     },
     "CHANNEL_ID":{
-      "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
+      "description": "Isi dengan channel id yang mau di jadikan tempat penyimpanan channel juga bisa ptivat",
       "value": "-100"
     },
     "FORCE_SUB_CHANNEL":{
-      "description": "id of the channel or group, if you want enable force sub feature else put 0",
+      "description": "Isi id channel wajib sub, kalau mau nonaktifkan isi aja 0",
       "value": "0"
     },
     "START_MESSAGE": {
-      "description": "Optional: start message of bot, use HTML parsemode format",
-      "value": "Hello {firstname}\n\nI can store private files in Specified Channel and other users can access it from special link."
+      "description": "Optional: pesan sambutan isi dengan format HTML seperti contoh",
+      "value": "Halo {firstname}\n\nSaya dapat menyimpan file pribadi di Saluran Tertentu dan pengguna lain dapat mengaksesnya dari tautan khusus."
     },
     "ADMINS": {
-      "description": "A space separated list of user_ids of Admins, they can only create links",
+      "description": "Daftar user_id dari Admin, mereka hanya dapat membuat link",
       "value": "",
       "required": false
     }
