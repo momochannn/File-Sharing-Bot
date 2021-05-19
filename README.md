@@ -82,11 +82,9 @@ python3 main.py
 ### Licence
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
 
-[FILE-SHARING-BOT](https://github.com/CodeXBotz/File-Sharing-Bot/) is Free Software: You can use, study share and improve it at your
-will. Specifically you can redistribute and/or modify it under the terms of the
-[GNU General Public License](https://www.gnu.org/licenses/gpl.html) as
-published by the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version. 
+[FILE-SHARING-BOT](https://github.com/kenkannih/File-Sharing-Bot/) adalah Perangkat Lunak Gratis: Anda dapat menggunakan, mempelajari berbagi, dan meningkatkannya sesuka Anda. Secara khusus, Anda dapat mendistribusikan kembali dan / atau memodifikasinya di bawah persyaratan
+[GNU General Public License](https://www.gnu.org/licenses/gpl.html)
+diterbitkan oleh Free Software Foundation, baik versi 3 dari Lisensi, atau (sesuai pilihan Anda) versi yang lebih baru.
 
 ##
 
