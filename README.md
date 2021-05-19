@@ -14,14 +14,7 @@
   <a href="https://www.python.org">
     <img src="http://ForTheBadge.com/images/badges/made-with-python.svg" width ="250">
   </a>
-  <a href="https://github.com/kenkan/File-Sharing-Bot/stargazers">
-    <img src="https://img.shields.io/github/stars/kenkan/File-Sharing-Bot?style=social">
-  </a>
-  <a href="https://github.com/jokokendi/File-Sharing-Bot/fork">
-    <img src="https://img.shields.io/github/forks/kenkan/File-Sharing-Bot?label=Fork&style=social">
-  </a>  
-</p>
-
+  
 
 Telegram Bot untuk menyimpan Postingan dan Dokumen dan dapat diakses dengan Tautan Khusus. Kurasa Ini Akan Bermanfaat Bagi Banyak Orang .....😇.
 ### FITUR
