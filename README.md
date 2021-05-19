@@ -27,6 +27,11 @@ Telegram Bot untuk menyimpan Postingan dan Dokumen dan dapat diakses dengan Taut
 - Lebih dari satu Posting dalam Satu Link.
 - Dapat diterapkan di heroku secara langsung.
 
+### UPDATE
+- Menghapus filter subcribe
+- Mempercantik button
+- Berbahasa indonesia
+
 ### SETUP
 - Tambahkan bot ke Saluran Database dengan semua izin
 - Tambahkan bot ke saluran ForceSub sebagai Admin dengan Undang Pengguna melalui Izin Tautan jika Anda mengaktifkan ForceSub
