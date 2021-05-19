@@ -39,13 +39,13 @@ class Bot(Client):
         except Exception as e:
             self.LOGGER(__name__).warning(e)
             self.LOGGER(__name__).warning("Pastikan bot adalah Admin di Channel DB, dan periksa kembali Nilai CHANNEL_ID Value")
-            self.LOGGER(__name__).info("\nMAAF BOT ERROR. Owner https://t.me/kenkanasw")
+            self.LOGGER(__name__).info("\n💢MAAF BOT ERROR💢 Owner https://t.me/kenkanasw")
             sys.exit()
 
         self.set_parse_mode("html")
-        self.LOGGER(__name__).info(f"✅BOT SUDAH SIAP DIGUNAKAN..!\n\nCreated by 𝘾𝙤𝙙𝙚 𝕏 𝘽𝙤𝙩𝙯\nhttps://t.me/kenkanasw")
+        self.LOGGER(__name__).info(f"💠BOT SUDAH SIAP DIGUNAKAN💠\n\nCreated by 𝘾𝙤𝙙𝙚 𝕏 𝘽𝙤𝙩𝙯\nhttps://t.me/kenkanasw")
         self.username = usr_bot_me.username
 
     async def stop(self, *args):
         await super().stop()
-        self.LOGGER(__name__).info("BOT ERROR.")
+        self.LOGGER(__name__).info("💢BOT ERROR💢")
