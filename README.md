@@ -67,8 +67,8 @@ python3 main.py
 
 ### Credits
 
-- Thanks To Dan For His Awsome [Libary](https://github.com/pyrogram/pyrogram)
-- Our Support Group Members
+- Terimakasih banyak untuk [Libary](https://github.com/pyrogram/pyrogram)
+- Dan juga suport kalian
 
 ### Licence
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
@@ -81,4 +81,4 @@ published by the Free Software Foundation, either version 3 of the License, or
 
 ##
 
-   **Star this Repo if you Liked it ⭐⭐⭐**
+   **Beri bintang pada Repo ini jika Anda Menyukainya ⭐⭐⭐**
