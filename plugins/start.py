@@ -8,7 +8,7 @@ from bot import Bot
 from config import ADMINS, START_MSG, OWNER_ID
 from helper_func import subscribed, encode, decode, get_messages
 
-@Bot.off_message(filters.command('start') & filters.private & subscribed)
+@Bot.on_message(filters.command('start') & filters.private & subscribed)
 async def start_command(client: Client, message: Message):
     text = message.text
     if len(text)>7:
