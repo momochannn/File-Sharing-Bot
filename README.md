@@ -1,4 +1,10 @@
-#### File-sharing-Bot
+<p align="center">
+  <a href="https://github.com/jokokendi/File-Sharing-Bot">
+    <img src="https://telegra.ph/file/34eb5d72507c71b6a7972.jpg" width ="250">
+  </a>
+
+
+#### File-Sharing-Bot
 
 <p align="center">
   <a href="https://www.python.org">
