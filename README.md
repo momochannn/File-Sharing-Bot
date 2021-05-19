@@ -56,14 +56,14 @@ python3 main.py
 
 ### Variables
 
-* `API_HASH` Your API Hash from my.telegram.org
-* `API_ID` Your API ID from my.telegram.org
-* `TG_BOT_TOKEN` Your bot token from @BotFather
-* `OWNER_ID` Must enter Your Telegram Id
-* `CHANNEL_ID` Your Channel ID eg:- -100xxxxxxxx
-* `ADMINS` Optional: A space separated list of user_ids of Admins, they can only create links
-* `START_MESSAGE` Optional: start message of bot, use HTML parsemode format
-* `FORCE_SUB_CHANNEL` Optional: ForceSub Channel ID, leave 0 if you want disable force sub
+* `API_HASH` API Hash kamu dari my.telegram.org
+* `API_ID` API ID kamu dari my.telegram.org
+* `TG_BOT_TOKEN` Dapatkan bot token dari @BotFather
+* `OWNER_ID` Isi dengan Telegram Id kamu
+* `CHANNEL_ID` Id Channel kamu contoh :- -100xxxxxxxx
+* `ADMINS` Optional: Daftar user_id dari Admin yang dipisahkan spasi, mereka hanya dapat membuat link
+* `START_MESSAGE` Optional: Pesan Start bot, gunakan format parsemode HTML
+* `FORCE_SUB_CHANNEL` Optional: ID Channel anda yang mau di jadikan Wajib Sub, biarkan 0 jika Anda ingin menonaktifkan sub paksa
 
 ### Credits
 
