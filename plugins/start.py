@@ -61,7 +61,7 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("❌ TUTUP", callback_data = "close"),
-                    InlineKeyboardButton("CHANNEL 💌",callback_data="subcribe")
+                    InlineKeyboardButton("CHANNEL 💌",url=f"https://t.me/{SUB_FORCE_CHANNEL})
                 ]
             ]
         )
