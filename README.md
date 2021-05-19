@@ -32,7 +32,6 @@ Telegram Bot untuk menyimpan Postingan dan Dokumen dan dapat diakses dengan Taut
 - Dapat diterapkan di heroku secara langsung.
 
 ### UPDATE
-- Menghapus filter subcribe
 - Mempercantik button
 - Berbahasa indonesia
 
