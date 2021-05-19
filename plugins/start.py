@@ -5,7 +5,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import FloodWait
 
 from bot import Bot
-from config import ADMINS, START_MSG, OWNER_ID, FORCE_SUB_CHANNEL
+from config import ADMINS, START_MSG, OWNER_ID, 
 from helper_func import subscribed, encode, decode, get_messages
 
 @Bot.on_message(filters.command('start') & filters.private & subscribed)
@@ -61,7 +61,7 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("❌ TUTUP", callback_data = "close"),
-                    InlineKeyboardButton("CHANNEL 💌",url=f"https://t.me/{SUB_FORCE_CHANNEL})
+                    InlineKeyboardButton("CHANNEL 💌",url=f"https://t.me/{client.username})
                 ]
             ]
         )
