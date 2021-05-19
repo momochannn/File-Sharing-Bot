@@ -39,7 +39,9 @@ Telegram Bot untuk menyimpan Postingan dan Dokumen dan dapat diakses dengan Taut
 </a><br>
 **Cek tutorialnya di youtube kalau butuh bantuan**<br>
 
-#### Deploy in your VPS
+#### JALANKAN DI TERMUX
+Fork dulu repository ini dan isi config.py dengan data yang benar lalu edit text di bawah ini dengan repository hasil fork kalian, semoga berhasil
+
 ```bash
 git clone https://github.com/jokokendi/File-Sharing-Bot
 cd File-Sharing-Bot
