@@ -9,7 +9,7 @@ from helper_func import encode, get_message_id
 async def batch(client: Client, message: Message):
     while True:
         try:
-            first_message = await client.ask(text = "Teruskan Pesan dari Saluran DB (with Quotes) ..\nor atau Kirim tautan Posting Saluran DB", chat_id = message.from_user.id, filters=(filters.forwarded | (filters.text & ~filters.forwarded)), timeout=30)
+            first_message = await client.ask(text = "Teruskan Pesan dari Saluran DB (with Quotes) ..\natau Kirim tautan Posting Saluran DB", chat_id = message.from_user.id, filters=(filters.forwarded | (filters.text & ~filters.forwarded)), timeout=30)
         except:
             return
         f_msg_id = await get_message_id(client, first_message)
@@ -21,7 +21,7 @@ async def batch(client: Client, message: Message):
 
     while True:
         try:
-            second_message = await client.ask(text = "Teruskan Pesan dari Saluran DB (with Quotes) ..\nor atau Kirim tautan Posting Saluran DB", chat_id = message.from_user.id, filters=(filters.forwarded | (filters.text & ~filters.forwarded)), timeout=30)
+            second_message = await client.ask(text = "Teruskan Pesan dari Saluran DB (with Quotes) ..\natau Kirim tautan Posting Saluran DB", chat_id = message.from_user.id, filters=(filters.forwarded | (filters.text & ~filters.forwarded)), timeout=30)
         except:
             return
         s_msg_id = await get_message_id(client, second_message)
@@ -43,7 +43,7 @@ async def batch(client: Client, message: Message):
 async def link_generator(client: Client, message: Message):
     while True:
         try:
-            channel_message = await client.ask(text = "Teruskan Pesan dari Saluran DB (with Quotes) ..\nor atau Kirim tautan Posting Saluran DB", chat_id = message.from_user.id, filters=(filters.forwarded | (filters.text & ~filters.forwarded)), timeout=30)
+            channel_message = await client.ask(text = "Teruskan Pesan dari Saluran DB (with Quotes) ..\natau Kirim tautan Posting Saluran DB", chat_id = message.from_user.id, filters=(filters.forwarded | (filters.text & ~filters.forwarded)), timeout=30)
         except:
             return
         msg_id = await get_message_id(client, channel_message)
