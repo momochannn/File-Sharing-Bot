@@ -1,4 +1,3 @@
 Pyrogram
 TgCrypto
 Pyromod
-Python3
