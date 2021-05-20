@@ -35,10 +35,7 @@ Telegram Bot untuk menyimpan Postingan dan Dokumen dan dapat diakses dengan Taut
 ### Installation
 #### Buat di heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kenkannih/File-Sharing-Bot)</br>
-<a href="https://youtu.be/LCrkRTMkmzE">
-  <img src="https://img.shields.io/badge/How%20to-Deploy-red?logo=youtube" width="147">
-</a><br>
-**Cek tutorialnya di youtube kalau butuh bantuan**<br>
+
 
 #### JALANKAN DI TERMUX
 Fork dulu repository ini dan isi config.py dengan data yang benar lalu edit text di bawah ini dengan repository hasil fork kalian, semoga berhasil
