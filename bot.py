@@ -2,7 +2,7 @@ import pyromod.listen
 from pyrogram import Client
 import sys
 
-from config import API_HASH, APP_ID, LOGGER, TG_BOT_TOKEN, TG_BOT_WORKERS, FORCE_SUB_CHANNEL, CHANNEL_ID
+from config import API_HASH, APP_ID, LOGGER, TG_BOT_TOKEN, TG_BOT_WORKERS, FORCE_SUB_CHANNEL, CHANNEL_ID, IKLAN
 
 class Bot(Client):
     def __init__(self):
@@ -10,6 +10,7 @@ class Bot(Client):
             "Bot",
             api_hash=API_HASH,
             api_id=APP_ID,
+            iklan=IKLAN,
             plugins={
                 "root": "plugins"
             },
