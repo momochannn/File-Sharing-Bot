@@ -60,9 +60,10 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                InlineKeyboardButton("⛔ TUTUP ⛔", callback_data = "close")
-            ],[
-               InlineKeyboardButton("💌 JOIN CHANNEL 💌", url = client.invitelink)
             ],
+            [
+               InlineKeyboardButton("💌 JOIN CHANNEL 💌", url = client.invitelink)
+            ]
         )
         await message.reply_text(
             text = START_MSG.format(firstname = message.chat.first_name),
