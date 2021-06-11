@@ -10,7 +10,6 @@ class Bot(Client):
             "Bot",
             api_hash=API_HASH,
             api_id=APP_ID,
-            iklan=IKLAN,
             plugins={
                 "root": "plugins"
             },
