@@ -73,7 +73,6 @@ async def start_command(client: Client, message: Message):
         )
         await message.reply_text(
             text = IKLAN
-            disable_web_page_preview = False,
         )
         return
 
