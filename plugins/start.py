@@ -5,7 +5,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import FloodWait
 
 from bot import Bot
-from config import ADMINS, START_MSG, OWNER_ID
+from config import ADMINS, START_MSG, OWNER_ID, IKLAN
 from helper_func import subscribed, encode, decode, get_messages
 
 @Bot.on_message(filters.command('start') & filters.private & subscribed)
@@ -71,6 +71,10 @@ async def start_command(client: Client, message: Message):
             disable_web_page_preview = True,
             quote = True
         )
+       await message.reply_text(
+           text = IKLAN
+           disable_web_page_preview = False,
+       )
         return
 
 @Bot.on_message(filters.command('start') & filters.private)
