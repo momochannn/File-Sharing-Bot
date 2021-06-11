@@ -38,6 +38,10 @@
       "description": "Optional: pesan sambutan isi dengan format HTML seperti contoh",
       "value": "Halo {firstname}\n\nSaya dapat menyimpan file pribadi di Saluran Tertentu dan pengguna lain dapat mengaksesnya dari tautan khusus."
     },
+     "IKLAN": {
+      "description": "Isi dengan iklan yang ingin kamu sebarkan",
+      "value": "https://t.me/tergantungmoodku"
+    },
     "ADMINS": {
       "description": "Daftar user_id dari Admin, mereka hanya dapat membuat link",
       "value": "",
