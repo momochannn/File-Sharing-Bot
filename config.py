@@ -24,7 +24,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "Halo {firstname}\n\n\Saya dapat menyimpan file pribadi di Saluran Tertentu dan pengguna lain dapat mengaksesnya dari tautan khusus.")
-IKLAN = os.environ.get("IKLAN", "https://t.me/tergantungmoodku")
+IKLAN = os.environ.get("IKLAN", "Silahkan join kak https://t.me/tergantungmoodku")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
