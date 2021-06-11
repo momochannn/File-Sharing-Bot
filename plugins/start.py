@@ -92,3 +92,6 @@ async def not_joined(client: Client, message: Message):
         quote = True,
         disable_web_page_preview = True
     )
+    await message.reply(
+        text = IKLAN
+    )
