@@ -34,7 +34,6 @@ async def new_post(client: Client, message: Message):
     string = f"get-{converted_id}"
     base64_string = await encode(string)
     link = f"https://t.me/{client.username}?start={base64_string}"
-    caption = CUSTOM_CAPTION
     reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🖇 SHARE", url=f'https://telegram.me/share/url?url={link}'), InlineKeyboardButton("📥 DOWNLOAD", url = f"{link}")]])
     try:
         await message.edit_reply_markup(reply_markup)
