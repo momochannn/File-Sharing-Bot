@@ -84,9 +84,6 @@ async def start_command(client: Client, message: Message):
             disable_web_page_preview = True,
             quote = True
         )
-        await message.reply(
-            text = IKLAN
-       )
         return
 
 @Bot.on_message(filters.command('start') & filters.private)
