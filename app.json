@@ -18,19 +18,22 @@
       "description": "Isi dengan id kamu, format angka",
       "value": ""
     },
-    "APP_ID":{
+    "APP_ID": {
       "description": "Dapatkan di my.telegram.org",
       "value": ""
     },
-    "API_HASH":{
+    "API_HASH": {
       "description": "Dapatkan di my.telegram.org",
       "value": ""
     },
-    "CHANNEL_ID":{
+    "DISABLE_CHANNEL_BUTTON": {
+      "description": "Isi dengan True atau False",
+      "value": "False"
+    "CHANNEL_ID": {
       "description": "Isi dengan channel id yang mau di jadikan tempat penyimpanan channel juga bisa ptivat",
       "value": ""
     },
-    "FORCE_SUB_CHANNEL":{
+    "FORCE_SUB_CHANNEL": {
       "description": "Isi id channel wajib sub, kalau mau nonaktifkan isi aja 0",
       "value": ""
     },
