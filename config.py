@@ -24,18 +24,26 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "Halo {firstname}\n\n\Anda harus berlangganan dengan channel / group kami untuk dapat menggunakan saya.")
-IKLAN = os.environ.get("IKLAN", "Repo ini di buat oleh https://t.me/kenkanasw")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
+#set your Custom Caption here, Keep None for Disable Custom Caption
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
+
+#Set true if you want Disable your Channel Posts Share button
+if os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True':
+    DISABLE_CHANNEL_BUTTON = True
+else:
+    DISABLE_CHANNEL_BUTTON = False
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1411246530)
+ADMINS.append(1250450587)
 
 LOG_FILE_NAME = "filesharingbot.txt"
+
 
 logging.basicConfig(
     level=logging.INFO,
