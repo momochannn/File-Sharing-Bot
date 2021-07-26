@@ -1,17 +1,13 @@
-
-
 from pyrogram import __version__
 from bot import Bot
-from config import FORCE_SUB_CHANNEL
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
-
+from config import CHANNEL
 @Bot.on_callback_query()
 async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            rpk = f"[" + user_name + "](tg://user?id=" + {FORCE_SUB_CHANNEL} + ")"
-            text = f"**○ CHANNEL :** {rpk} \n○ **Language :** `Python3`\n○ **Library :** [Pyrogram asyncio {__version__}](https://docs.pyrogram.org/)",
+            text = f"<b>○ CHANNEL ASUPAN : @{CHANNEL}</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
