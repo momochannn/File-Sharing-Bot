@@ -34,6 +34,10 @@
       "description": "Isi id channel wajib sub, kalau mau nonaktifkan isi aja 0",
       "value": ""
     },
+    "CUSTOM_CAPTION": {
+      "description": "Isi dengan caption bebas apa aja",
+      "value": ""
+    },
     "START_MESSAGE": {
       "description": "Optional: pesan sambutan isi dengan format HTML seperti contoh",
       "value": "Halo {firstname}\n\nSaya dapat menyimpan file pribadi di Saluran Tertentu dan pengguna lain dapat mengaksesnya dari tautan khusus."
