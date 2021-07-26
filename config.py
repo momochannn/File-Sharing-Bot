@@ -23,7 +23,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Halo {firstname}\n\n\Saya dapat menyimpan file pribadi di Saluran Tertentu dan pengguna lain dapat mengaksesnya dari tautan khusus.")
+START_MSG = os.environ.get("START_MESSAGE", "Halo {firstname}\n\n\Anda harus berlangganan dengan channel / group kami untuk dapat menggunakan saya.")
 IKLAN = os.environ.get("IKLAN", "Repo ini di buat oleh https://t.me/kenkanasw")
 try:
     ADMINS=[]
