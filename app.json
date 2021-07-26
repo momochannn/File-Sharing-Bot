@@ -26,6 +26,11 @@
       "description": "Dapatkan di my.telegram.org",
       "value": ""
     },
+    "CHANNEL": {
+      "description": "Masukan Nama atau Username channel atau group tanpa tanda @",
+      "required": true,
+      "value": "musikkuchannel"  
+    },
     "DISABLE_CHANNEL_BUTTON": {
       "description": "Isi dengan True atau False",
       "value": "False"
